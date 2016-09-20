@@ -18,7 +18,7 @@
     "gameHeight": 5000,
     "adminPass": "DEFAULT",
     "gameMass": 20000,
-    "maxFood": 2000,
+    "maxFood": 1500,
     "maxVirus": 50,
     "slowBase": 4.5,
     "logChat": 0,
@@ -29,5 +29,5 @@
     "newPlayerInitialPosition": "farthest",
     "massLossRate": 1,
     "minMassLoss": 50,
-    "mergeTimer": 1
+    "mergeTimer": 8
 }
