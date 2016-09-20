@@ -1,7 +1,7 @@
-﻿{
-  "name": "Freestyle Agar.io Server",
+{
+  "name": "agar-clone",
   "version": "1.0.0",
-  "description": "Agar.io Node.js Version by Fstyle.ga",
+  "description": "A simple Agar.io clone",
   "main": "server/server.js",
   "scripts": {
     "build": "gulp build",
@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mensta/firstogar.git"
+    "url": "https://github.com/huytd/agar.io-clone.git"
   },
-  "author": "Delta Force",
+  "author": "Huy Tran",
   "license": "MIT",
   "contributors": [
     "Igor Antun <igorantunc@hotmail.com> (https://github.com/IgorAntun)",
