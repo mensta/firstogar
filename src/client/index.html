@@ -30,28 +30,28 @@
             <input type="text" tabindex="0" autofocus placeholder="Enter your name here" id="playerNameInput" maxlength="25" />
             <b class="input-error">Nick must be alphanumeric characters only!</b>
             <br />
-            <a onclick="document.getElementById('spawn_cell').play();"><button id="startButton">Play</button></a>
-            <button id="spectateButton">Spectate</button>
-            <button id="settingsButton">Settings</button>
+            <a onclick="document.getElementById('spawn_cell').play();"><button id="startButton">プレイ</button></a>
+            <button id="spectateButton">スカイクラッド観測者</button>
+            <button id="settingsButton">設定</button>
             <br />
             <div id="settings">
                 <h3>Settings</h3>
                 <ul>
-                    <label><input id="visBord" type="checkbox">Show border</label>
-                    <label><input id="showMass" type="checkbox">Show mass</label>
+                    <label><input id="visBord" type="checkbox">境界線表示</label>
+                    <label><input id="showMass" type="checkbox">細胞の大きさ表示</label>
                     <br />
-                    <label><input id="continuity" type="checkbox">Continue moving when mouse is off-screen</label>
+                    <label><input id="continuity" type="checkbox">マウスが画面から出ても動く希ガス</label>
                     <br />
-                    <label><input id="roundFood" type="checkbox" checked>Rounded food</label>
+                    <label><input id="roundFood" type="checkbox" checked>丸い餌</label>
                 </ul>
             </div>
             <div id="instructions">
-                <h3>Gameplay</h3>
+                <h3>ゲーム内容</h3>
                 <ul>
-                    <li>Move your mouse on the screen to move your character.</li>
-                    <li>Eat food and other players in order to grow your character (food respawns every time a player eats it).</li>
-                    <li>A player's mass is the number of food particles eaten.</li>
-                    <li>Objective: Try to get fat and eat other players.</li>
+                    <li>マウスを動かして細胞を操作</li>
+                    <li>落ちている餌や自分より小さな細胞を食べて大きくなれます</li>
+                    <li>Wキーで他のプレイヤーに餌を与えたり、スペースキーで分裂できます。</li>
+                    <li><a href="https://www.youtube.com/channel/UCBd0KM0TyLPiminXiLzFrBQ?sub_confirmation=1">©2016 Delta Force(デルタフォース)</a></li>
                 </ul>
             </div>
         </div>
