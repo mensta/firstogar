@@ -2,7 +2,7 @@
   "name": "agar-clone",
   "version": "1.0.0",
   "description": "A simple Agar.io clone",
-  "main": "server.js",
+  "main": "server/server.js",
   "scripts": {
     "build": "gulp build",
     "start": "gulp run",
@@ -19,11 +19,11 @@
     "Igor Antun <igorantunc@hotmail.com> (https://github.com/IgorAntun)",
     "Bjarne Oeverli <bjarne.oeverli@gmail.com> (https://github.com/bjarneo)",
     "Chris Morgan <chris.j.r.morgan@gmail.com> (https://github.com/drpotato)",
-    "PET Computa??o UFPR <pet@inf.ufpr.br> (http://pet.inf.ufpr.br)",
+    "PET Computação UFPR <pet@inf.ufpr.br> (http://pet.inf.ufpr.br)",
     "Saren Currie <saren@sarencurrie.com> (https://github.com/SarenCurrie)",
     "Nguyen Huu Thanh <giongto35@yahoo.com> (https://github.com/giongto35)",
     "Ariamiro <dossantosgusmaosavio@gmail.com> (https://github.com/Ariamiro)",
-    "VILLERS Micka?l <mickael.villers@epitech.eu> (https://github.com/villers)",
+    "VILLERS Mickaël <mickael.villers@epitech.eu> (https://github.com/villers)",
     "Dan Prince <dan@astrealdynamics.co.uk> (https://github.com/danprince)",
     "Kostas Bariotis <konmpar@gmail.com> (https://github.com/kbariotis)",
     "Jerry Xu <jerryxu23@gmail.com> (https://github.com/abalabahaha)",
@@ -60,7 +60,4 @@
     "webpack": "^1.13.1",
     "webpack-stream": "^3.2.0"
   }
-}"engines": {
-    "node": "v4.1.X",
-    "npm": "2.14.X"
-  }
+}
