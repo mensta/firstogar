@@ -4,10 +4,10 @@ FirstOgar v1.0 (Fstyle.ga)
 
 これはherokuに自動デプロイするために作成されたものです。
 
-![Image](screenshot.png)
+![Image](123.jpg)
 
-## Live Demos
-An updated and live list of live demos can be found on the [Live Demos wiki page](https://github.com/huytd/agar.io-clone/wiki/Live-Demos).
+## テストサーバーがあります
+プレイしてみたいかた方は [日本鯖agar.io](https://fstyle.herokuapp.com/).
 
 ---
 
