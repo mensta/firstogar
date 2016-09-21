@@ -1,4 +1,4 @@
 var serverconfig = {};
 
-serverconfig.server = 'ws://149.56.131.181:24270';
+serverconfig.server = 'ws://146.185.167.9:4445';
 module.exports = serverconfig;
