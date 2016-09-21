@@ -5,7 +5,8 @@
   "main": "server/server.js",
   "scripts": {
     "build": "gulp build",
-    "start": "gulp run",
+    "postinstall": "node_modules/.bin/bower install && node_modules/.bin/gulp build"
+    "start": "node server/server.js",
     "watch": "gulp watch",
     "test": "gulp test"
   },
